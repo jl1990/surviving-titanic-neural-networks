@@ -1,0 +1,14 @@
+numpy
+pandas
+Pillow
+scipy
+jupyter
+statsmodels
+notebook
+matplotlib
+scikit-learn
+torchmetrics
+mlxtend
+torchinfo
+openpyxl
+seaborn
