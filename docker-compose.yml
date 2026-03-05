@@ -1,7 +1,11 @@
 services:
   jupyter:
     image: jl1990/titanic-jupyter:latest
-    build: .
+    build:
+      context: .
+      platforms:
+        - linux/amd64
+        - linux/arm64
     ports:
       - "8888:8888"
     volumes:
