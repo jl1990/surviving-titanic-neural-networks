@@ -34,9 +34,9 @@ If you prefer to run the project locally, ensure you have Python installed, then
 
 #### Using Docker (Recommended)
 
-1. Build and start the Jupyter environment:
+1. Start the Jupyter environment:
    ```bash
-   docker compose up --build
+   docker compose up
    ```
 
 2. Open your browser at `http://localhost:8888`.
