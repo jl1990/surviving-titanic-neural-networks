@@ -42,8 +42,6 @@ If you prefer to run the project locally, ensure you have Python installed, then
 2. Open your browser at `http://localhost:8888`.
 3. Use the token `titanic` to log in (if prompted).
 
-> **Note on Image Size**: The base Jupyter image (`scipy-notebook`) and the full PyTorch installation are quite large (around 10GB+) because they include GPU support and pre-installed scientific libraries. To reduce build time and context size, we've included a `.dockerignore` file.
-
 #### Using Python Environment Directly
 
 1. Clone the repository:
