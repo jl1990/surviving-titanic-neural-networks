@@ -1,0 +1,12 @@
+services:
+  jupyter:
+    image: jl1990/titanic-jupyter:latest
+    build: .
+    ports:
+      - "8888:8888"
+    volumes:
+      - .:/home/jovyan/work
+    environment:
+      - JUPYTER_ENABLE_LAB=yes
+      - JUPYTER_TOKEN=titanic
+    command: start-notebook.sh --NotebookApp.token='titanic'
